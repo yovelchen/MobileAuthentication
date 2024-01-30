@@ -30,6 +30,15 @@
     </dependencyManagement>
 
     <dependencies>
+        <!-- Add the provided content here -->
+        <!-- JAX-RS dependencies -->
+        <dependency>
+            <groupId>javax.ws.rs</groupId>
+            <artifactId>javax.ws.rs-api</artifactId>
+            <version>2.1.1</version>
+        </dependency>
+
+        <!-- Your existing dependencies -->
         <dependency>
             <groupId>org.keycloak</groupId>
             <artifactId>keycloak-server-spi</artifactId>
